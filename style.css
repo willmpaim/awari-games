@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: 90%;
+}
+
+.head {
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color: orange;
+    width: 100%;
+}
+
+.container {
+   text-align: justify;
+   border: 1px solid black;
+   border-radius: 5px;
+   box-shadow: 10px 5px 10px;
+   margin: 2rem;
+   padding: 2rem;
+   text-shadow: 
+   -1px -1px 0px white, 
+   -1px 1px 0px white,                    
+    1px -1px 0px orange,                  
+    2px 0px 0px #FFF;
+}
+
+.foot {
+    text-align: center;
+    border-top: 2px solid black;
+    background-color: orange;
+    position: absolute;
+    padding: 1rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
